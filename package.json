@@ -1,0 +1,20 @@
+{
+  "name": "node-grep",
+  "version": "1.0.0",
+  "description": "Basic grep utility built with node.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard || exit 0",
+    "format": "npx standard --fix --verbose || exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alexey Turchak",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
